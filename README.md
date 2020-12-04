@@ -82,4 +82,18 @@ In exploration with regression models, cross validation was used in both tuning 
 ![GDB_RF](/IMG/GB_RF.png)
 ![ADB_RF](/IMG/Ada_RF.png)
 
-  
+With Gradient Boosting Model, I used Grid Search method to further tune hyperparameters and was able to get MSE down to 0.822.
+
+## Tensor Flow Regression
+
+### Balancing the Data
+
+Before I start training a Tensor Flow model. I thought it would be a better idea to balance the data since the distribution of star ratings in our data wasn't even. 
+
+![rating_og](/IMG/star_count_org.png)
+![rating_bl](/IMG/star_count_bal.png)
+
+With Tensor Flow and larger data, I could get the RMSE down to 0.53.
+
+
+
