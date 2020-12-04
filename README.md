@@ -50,18 +50,29 @@ A reviewer can assign a star rating from integers 1 to 5, which makes it discret
 ## Classification Models
 First, I chose to explore the following multi-class classification algorithms, and used the following metrics for comparison:
 
-* **Models:** KNN, Decision Tree, Random Forest, Gradient Boosting and Multilayer Perceptron
+* **Models:** KNN, Decision Tree, Random Forest, Gradient Boosting and Multilayer Perceptron, MultinomialNB
 
 * **Comparison Metrics:** Accuracy, Precision, Recall and F1 Score. 
   Below are the results scored in Accuracy:
 
+  - MultinomialNB: 0.32
   - KNN: 37.0%
   - Decision Tree: 37.7 %
   - Random Forest: 46%
   - Gradient Boosting: 46.8%
   - Multi Layer Perceptron: 47.75%
 
-* Comparison Metrics
+### Classification into 3 Categories: Positive, Neutral, Negative
 
-* 
-## Classification into 3 Categories: Positive, Neutral, Negative
+The multi-class classification with 5 different ratings didn't perform well. So I bucketed the star ratings into 3 groups of Positive, Neutral and Negative to see how the performance improved. It had improved a little bit but it seemed like it was struggling to predict negative reviews from looking at the confusion matrix.
+
+## Regression Models
+
+* **Models:** Decision Tree, Random Forest, Gradient Boosting
+
+* **Comparison Metrics:** RSME, MSE 
+  Below are the results scored in RSME:
+  - Decision Tree: 1.37
+  - Random Forest: 1.25
+  - Gradient Boosting: 1.19
+  
