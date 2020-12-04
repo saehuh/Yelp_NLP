@@ -95,5 +95,12 @@ Before I start training a Tensor Flow model. I thought it would be a better idea
 
 With Tensor Flow and larger data, I could get the RMSE down to 0.53.
 
+## Topic Modeling with NMF/LDA
 
+Non-negative matrix factorization was used to explore the most influential words within each latent feature. The top 20 words within each latent feature are listed below. It would be interesting to further explore whether these latent features have any relation to the star ratings.
 
+### Topic Modeling with Non-negative matrix factorization
+![NMF](/IMG/nmf_topics.png)
+
+### Topic Modeling with Latent Dirichlet Allocation
+![LDA](/IMG/pyLDA_img.png)
