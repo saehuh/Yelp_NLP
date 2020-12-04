@@ -1,4 +1,6 @@
-# Yelp_NLP
+
+# NLP with Yelp
+![Yelp_logo](/img/unnamed.png)
 
 ## Data
 
