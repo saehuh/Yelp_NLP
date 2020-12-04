@@ -52,22 +52,14 @@ First, I chose to explore the following multi-class classification algorithms, a
 
 * **Models:** KNN, Decision Tree, Random Forest, Gradient Boosting and Multilayer Perceptron
 
-* **Comparison Metrics:** Accuracy, Precision, Recall and F1 Score
+* **Comparison Metrics:** Accuracy, Precision, Recall and F1 Score. 
+  Below are the results scored in Accuracy:
 
-### KNN: 37.0%
-
-![KNN](/IMG/Screen Shot 2020-12-03 at 5.46.18 PM.png)
-
-### Decision Tree: 37.7 %
-
-### Random Forest: 46%
-
-### Gradient Boosting: 46.8%
-
-### Multi Layer Perceptron: 47.75%
-
-
-
+  - KNN: 37.0%
+  - Decision Tree: 37.7 %
+  - Random Forest: 46%
+  - Gradient Boosting: 46.8%
+  - Multi Layer Perceptron: 47.75%
 
 * Comparison Metrics
 
