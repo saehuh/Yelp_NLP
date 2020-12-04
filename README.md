@@ -66,13 +66,20 @@ First, I chose to explore the following multi-class classification algorithms, a
 
 The multi-class classification with 5 different ratings didn't perform well. So I bucketed the star ratings into 3 groups of Positive, Neutral and Negative to see how the performance improved. It had improved a little bit but it seemed like it was struggling to predict negative reviews from looking at the confusion matrix.
 
-## Regression Models
+## Regression Models with Cross Validations
+In exploration with regression models, cross validation was used in both tuning of hyper parameters and the training of the best resulting models. The scores reported are based on the predictions from unseen test data that were excluded from the training set.
 
-* **Models:** Decision Tree, Random Forest, Gradient Boosting
+* **Models:** Random Forest Regressor, Gradient Boosting Regressor, AdaBoost Regressor
 
-* **Comparison Metrics:** RSME, MSE 
-  Below are the results scored in RSME:
-  - Decision Tree: 1.37
-  - Random Forest: 1.25
-  - Gradient Boosting: 1.19
+* **Comparison Metrics:** RMSE, R2 
+  Below are the results scored in MSE:
+  - Random Forest Regressor: 1.002
+  - Gradient Boosting Regressor: 1.018
+  - AdaBoost Regressor: 1.081
+
+### Comparing Different Models at Different Learning Rates
+![GDB](/IMG/GB.png)
+![GDB_RF](/IMG/GB_RF.png)
+![ADB_RF](/IMG/Ada_RF.png)
+
   
