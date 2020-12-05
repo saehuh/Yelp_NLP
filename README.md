@@ -22,6 +22,12 @@ A reviewer can assign a star rating from integers 1 to 5. However, the business 
 ### Distribution of Star Ratings in Business Dataset
 ![Yelp_review_stars](/IMG/yelp_stars_business.png)
 
+## Ordinal Variables
+
+An ordinal variable is similar to a categorical variable. However, the key difference between the two is that there is a clear ordering of the categories. For example, suppose you have a variable, economic status, with three categories (low, medium and high). In addition to being able to classify people into these three categories, you can order the categories as low, medium and high.
+
+Now, our yelp review's star ratings range from 1 to 5.
+A reviewer can assign a star rating from integers 1 to 5, which makes it discrete. However, the business that receives the rating shows the aggregated average of the total star ratings, which then makes it continuous.
 
 ## Pipeline
 ### Preparing the Data
@@ -38,13 +44,6 @@ A reviewer can assign a star rating from integers 1 to 5. However, the business 
 ![Yelp_trigrams](/IMG/trigrams.png)
 
 * Count/TF-IDF Vectorization: were both explored to vectorize the words and weight their importance. 
-
-## Ordinal Variables
-
-An ordinal variable is similar to a categorical variable. However, the key difference between the two is that there is a clear ordering of the categories. For example, suppose you have a variable, economic status, with three categories (low, medium and high). In addition to being able to classify people into these three categories, you can order the categories as low, medium and high.
-
-Now, our yelp review's star ratings range from 1 to 5.
-A reviewer can assign a star rating from integers 1 to 5, which makes it discrete. However, the business that receives the rating shows the aggregated average of the total star ratings, which then makes it continuous.
 
 
 ## Classification Models
